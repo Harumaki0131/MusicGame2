@@ -14,6 +14,13 @@
 		58406DC920A6D63C00CE808E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58406DC720A6D63C00CE808E /* LaunchScreen.storyboard */; };
 		58406DD420A6D63C00CE808E /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58406DD320A6D63C00CE808E /* ______Tests.swift */; };
 		58406DDF20A6D63C00CE808E /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58406DDE20A6D63C00CE808E /* ______UITests.swift */; };
+		58406DED20A6DE9D00CE808E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58406DEC20A6DE9D00CE808E /* TableViewCell.swift */; };
+		5841D04320CBAE8F00E2D906 /* アンダーバー.png in Resources */ = {isa = PBXBuildFile; fileRef = 5841D04220CBAE8F00E2D906 /* アンダーバー.png */; };
+		5863738720B938D00042AAA9 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863738620B938D00042AAA9 /* PlayViewController.swift */; };
+		5882C22D20F09721004D71DB /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882C22C20F09721004D71DB /* scoreViewController.swift */; };
+		58FCA90B20BBE60A008AC6D0 /* 名称未設定-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FCA90A20BBE609008AC6D0 /* 名称未設定-1.png */; };
+		D044FFFA214CE1DB004DF623 /* hatesinai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D044FFF9214CE1DB004DF623 /* hatesinai.mp3 */; };
+		D044FFFE214D1FAB004DF623 /* スコア.png in Resources */ = {isa = PBXBuildFile; fileRef = D044FFFD214D1FAB004DF623 /* スコア.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		58406DDA20A6D63C00CE808E /* 本当の最後のUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "本当の最後のUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58406DDE20A6D63C00CE808E /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		58406DE020A6D63C00CE808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58406DEC20A6DE9D00CE808E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5841D04220CBAE8F00E2D906 /* アンダーバー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アンダーバー.png"; sourceTree = "<group>"; };
+		5863738620B938D00042AAA9 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		5882C22C20F09721004D71DB /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
+		58FCA90A20BBE609008AC6D0 /* 名称未設定-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定-1.png"; sourceTree = "<group>"; };
+		D044FFF9214CE1DB004DF623 /* hatesinai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hatesinai.mp3; sourceTree = "<group>"; };
+		D044FFFD214D1FAB004DF623 /* スコア.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スコア.png"; path = "../../../Documents/スコア.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,16 @@
 		58406DBD20A6D63C00CE808E /* 本当の最後の */ = {
 			isa = PBXGroup;
 			children = (
+				D044FFF9214CE1DB004DF623 /* hatesinai.mp3 */,
+				D044FFFD214D1FAB004DF623 /* スコア.png */,
+				58FCA90A20BBE609008AC6D0 /* 名称未設定-1.png */,
+				5841D04220CBAE8F00E2D906 /* アンダーバー.png */,
 				58406DBE20A6D63C00CE808E /* AppDelegate.swift */,
 				58406DC020A6D63C00CE808E /* ViewController.swift */,
+				5882C22C20F09721004D71DB /* scoreViewController.swift */,
+				5863738620B938D00042AAA9 /* PlayViewController.swift */,
 				58406DC220A6D63C00CE808E /* Main.storyboard */,
+				58406DEC20A6DE9D00CE808E /* TableViewCell.swift */,
 				58406DC520A6D63C00CE808E /* Assets.xcassets */,
 				58406DC720A6D63C00CE808E /* LaunchScreen.storyboard */,
 				58406DCA20A6D63C00CE808E /* Info.plist */,
@@ -232,8 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5841D04320CBAE8F00E2D906 /* アンダーバー.png in Resources */,
+				D044FFFE214D1FAB004DF623 /* スコア.png in Resources */,
+				D044FFFA214CE1DB004DF623 /* hatesinai.mp3 in Resources */,
 				58406DC920A6D63C00CE808E /* LaunchScreen.storyboard in Resources */,
 				58406DC620A6D63C00CE808E /* Assets.xcassets in Resources */,
+				58FCA90B20BBE60A008AC6D0 /* 名称未設定-1.png in Resources */,
 				58406DC420A6D63C00CE808E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5863738720B938D00042AAA9 /* PlayViewController.swift in Sources */,
+				58406DED20A6DE9D00CE808E /* TableViewCell.swift in Sources */,
 				58406DC120A6D63C00CE808E /* ViewController.swift in Sources */,
+				5882C22D20F09721004D71DB /* scoreViewController.swift in Sources */,
 				58406DBF20A6D63C00CE808E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,11 +454,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PEFMCKTT;
 				INFOPLIST_FILE = "本当の最後の/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.------";
+				PRODUCT_BUNDLE_IDENTIFIER = "-018-9-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +471,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PEFMCKTT;
 				INFOPLIST_FILE = "本当の最後の/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.------";
+				PRODUCT_BUNDLE_IDENTIFIER = "-018-9-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
