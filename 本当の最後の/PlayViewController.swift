@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import Firebase
 
 class PlayViewController: UIViewController, AVAudioPlayerDelegate {
     
@@ -17,6 +18,8 @@ class PlayViewController: UIViewController, AVAudioPlayerDelegate {
     var yosicount: Int = 0
     var tunecount: Int = 0
     var asicount: Int = 0
+    
+    var  namae:DatabaseReference!
     
     @IBOutlet var hanteiLabel: UILabel!
     
@@ -46,6 +49,8 @@ class PlayViewController: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        namae = Database.database().reference()
         
         timer = Timer.scheduledTimer(timeInterval: 0.01,target: self,
                                      selector: #selector(self.up),userInfo: nil,repeats: true)
@@ -82,6 +87,13 @@ class PlayViewController: UIViewController, AVAudioPlayerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "seguetest" {
+            let nextVC = segue.destination as! scoreViewController
+            nextVC.point = sender as! Int
+        }
+    }
+    
     @objc func up() {
         let appframe:CGRect = UIScreen.main.bounds
         let x = (appframe.size.width - 100) / 3 * 2 + 50
@@ -91,7 +103,7 @@ class PlayViewController: UIViewController, AVAudioPlayerDelegate {
         
         if  audioPlayer.isPlaying == false {
             timer.invalidate()
-            performSegue(withIdentifier: "seguetest", sender: self)
+            performSegue(withIdentifier: "seguetest", sender: point)
         }
         
         
@@ -101,7 +113,7 @@ class PlayViewController: UIViewController, AVAudioPlayerDelegate {
             
             var targetLabel: UILabel = UILabel()
             targetLabel=UILabel(frame: CGRect(x: 69, y: 25, width: 137, height: 15))
-            targetLabel.text = "■"
+            targetLabel.text = "onpu.png"
             targetLabel.font = UIFont.systemFont(ofSize: 50)
             targetLabel.backgroundColor = UIColor.black
             targetLabel.tag = 0
@@ -164,6 +176,8 @@ class PlayViewController: UIViewController, AVAudioPlayerDelegate {
         next.yosicount = yosicount
         self.present(next,animated: true, completion: nil)
     }
+    
+    
     // Do any additional setup after loading the view.
 
     

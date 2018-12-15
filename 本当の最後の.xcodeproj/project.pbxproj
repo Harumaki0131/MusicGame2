@@ -18,9 +18,11 @@
 		5841D04320CBAE8F00E2D906 /* アンダーバー.png in Resources */ = {isa = PBXBuildFile; fileRef = 5841D04220CBAE8F00E2D906 /* アンダーバー.png */; };
 		5863738720B938D00042AAA9 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863738620B938D00042AAA9 /* PlayViewController.swift */; };
 		5882C22D20F09721004D71DB /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882C22C20F09721004D71DB /* scoreViewController.swift */; };
-		58FCA90B20BBE60A008AC6D0 /* 名称未設定-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FCA90A20BBE609008AC6D0 /* 名称未設定-1.png */; };
-		D044FFFA214CE1DB004DF623 /* hatesinai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D044FFF9214CE1DB004DF623 /* hatesinai.mp3 */; };
 		D044FFFE214D1FAB004DF623 /* スコア.png in Resources */ = {isa = PBXBuildFile; fileRef = D044FFFD214D1FAB004DF623 /* スコア.png */; };
+		D05C830221C4F17000BF7647 /* Pods_本当の最後の.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C830121C4F17000BF7647 /* Pods_本当の最後の.framework */; };
+		D05C830321C4F27000BF7647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D06A254421C4EA6300861356 /* GoogleService-Info.plist */; };
+		D06A254121C4E50800861356 /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = D06A254021C4E50800861356 /* onpu.png */; };
+		D0CDACE821A005BC005F4AE4 /* hatesinai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0CDACE721A005BC005F4AE4 /* hatesinai.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		416DB92482D2619A71CC94F3 /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		493ADA9286D42B9F020DC03B /* Pods-本当の最後の.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-本当の最後の.debug.xcconfig"; path = "Pods/Target Support Files/Pods-本当の最後の/Pods-本当の最後の.debug.xcconfig"; sourceTree = "<group>"; };
 		58406DBB20A6D63C00CE808E /* 本当の最後の.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "本当の最後の.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58406DBE20A6D63C00CE808E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58406DC020A6D63C00CE808E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,9 +62,14 @@
 		5841D04220CBAE8F00E2D906 /* アンダーバー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アンダーバー.png"; sourceTree = "<group>"; };
 		5863738620B938D00042AAA9 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		5882C22C20F09721004D71DB /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
-		58FCA90A20BBE609008AC6D0 /* 名称未設定-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定-1.png"; sourceTree = "<group>"; };
-		D044FFF9214CE1DB004DF623 /* hatesinai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hatesinai.mp3; sourceTree = "<group>"; };
+		611D3959D6E1FA4F02B0C3E0 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2067E1E715049DB8313F44 /* Pods-本当の最後の.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-本当の最後の.release.xcconfig"; path = "Pods/Target Support Files/Pods-本当の最後の/Pods-本当の最後の.release.xcconfig"; sourceTree = "<group>"; };
+		9E34870AB0D65DE3979CA2EC /* Pods_______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D044FFFD214D1FAB004DF623 /* スコア.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スコア.png"; path = "../../../Documents/スコア.png"; sourceTree = "<group>"; };
+		D05C830121C4F17000BF7647 /* Pods_本当の最後の.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_本当の最後の.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06A254021C4E50800861356 /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onpu.png; path = "../../制作画像/onpu.png"; sourceTree = "<group>"; };
+		D06A254421C4EA6300861356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0CDACE721A005BC005F4AE4 /* hatesinai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hatesinai.mp3; path = ../../../Downloads/hatesinai.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05C830221C4F17000BF7647 /* Pods_本当の最後の.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380B6C4004D9912CCD4B979C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				493ADA9286D42B9F020DC03B /* Pods-本当の最後の.debug.xcconfig */,
+				8D2067E1E715049DB8313F44 /* Pods-本当の最後の.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58406DB220A6D63C00CE808E = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +114,8 @@
 				58406DD220A6D63C00CE808E /* 本当の最後のTests */,
 				58406DDD20A6D63C00CE808E /* 本当の最後のUITests */,
 				58406DBC20A6D63C00CE808E /* Products */,
+				380B6C4004D9912CCD4B979C /* Pods */,
+				AADDC8630210377CDA48DCFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,9 +132,9 @@
 		58406DBD20A6D63C00CE808E /* 本当の最後の */ = {
 			isa = PBXGroup;
 			children = (
-				D044FFF9214CE1DB004DF623 /* hatesinai.mp3 */,
+				D0CDACE721A005BC005F4AE4 /* hatesinai.mp3 */,
 				D044FFFD214D1FAB004DF623 /* スコア.png */,
-				58FCA90A20BBE609008AC6D0 /* 名称未設定-1.png */,
+				D06A254021C4E50800861356 /* onpu.png */,
 				5841D04220CBAE8F00E2D906 /* アンダーバー.png */,
 				58406DBE20A6D63C00CE808E /* AppDelegate.swift */,
 				58406DC020A6D63C00CE808E /* ViewController.swift */,
@@ -124,6 +145,7 @@
 				58406DC520A6D63C00CE808E /* Assets.xcassets */,
 				58406DC720A6D63C00CE808E /* LaunchScreen.storyboard */,
 				58406DCA20A6D63C00CE808E /* Info.plist */,
+				D06A254421C4EA6300861356 /* GoogleService-Info.plist */,
 			);
 			path = "本当の最後の";
 			sourceTree = "<group>";
@@ -146,6 +168,17 @@
 			path = "本当の最後のUITests";
 			sourceTree = "<group>";
 		};
+		AADDC8630210377CDA48DCFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D05C830121C4F17000BF7647 /* Pods_本当の最後の.framework */,
+				611D3959D6E1FA4F02B0C3E0 /* Pods_______.framework */,
+				9E34870AB0D65DE3979CA2EC /* Pods_______Tests.framework */,
+				416DB92482D2619A71CC94F3 /* Pods_______UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58406DE320A6D63C00CE808E /* Build configuration list for PBXNativeTarget "本当の最後の" */;
 			buildPhases = (
+				4147DDEF4151064B15D2F5AE /* [CP] Check Pods Manifest.lock */,
 				58406DB720A6D63C00CE808E /* Sources */,
 				58406DB820A6D63C00CE808E /* Frameworks */,
 				58406DB920A6D63C00CE808E /* Resources */,
+				111C28CC29CDC305D71D6713 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,11 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5841D04320CBAE8F00E2D906 /* アンダーバー.png in Resources */,
+				D05C830321C4F27000BF7647 /* GoogleService-Info.plist in Resources */,
 				D044FFFE214D1FAB004DF623 /* スコア.png in Resources */,
-				D044FFFA214CE1DB004DF623 /* hatesinai.mp3 in Resources */,
 				58406DC920A6D63C00CE808E /* LaunchScreen.storyboard in Resources */,
+				D0CDACE821A005BC005F4AE4 /* hatesinai.mp3 in Resources */,
 				58406DC620A6D63C00CE808E /* Assets.xcassets in Resources */,
-				58FCA90B20BBE60A008AC6D0 /* 名称未設定-1.png in Resources */,
+				D06A254121C4E50800861356 /* onpu.png in Resources */,
 				58406DC420A6D63C00CE808E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +314,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		111C28CC29CDC305D71D6713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-本当の最後の/Pods-本当の最後の-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-本当の最後の/Pods-本当の最後の-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4147DDEF4151064B15D2F5AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-本当の最後の-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58406DB720A6D63C00CE808E /* Sources */ = {
@@ -375,6 +462,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -393,7 +481,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -432,6 +520,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -444,6 +533,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -452,6 +542,7 @@
 		};
 		58406DE420A6D63C00CE808E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493ADA9286D42B9F020DC03B /* Pods-本当の最後の.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -459,6 +550,7 @@
 				DEVELOPMENT_TEAM = 47PEFMCKTT;
 				INFOPLIST_FILE = "本当の最後の/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "-018-9-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -469,6 +561,7 @@
 		};
 		58406DE520A6D63C00CE808E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2067E1E715049DB8313F44 /* Pods-本当の最後の.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -476,6 +569,7 @@
 				DEVELOPMENT_TEAM = 47PEFMCKTT;
 				INFOPLIST_FILE = "本当の最後の/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "-018-9-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
