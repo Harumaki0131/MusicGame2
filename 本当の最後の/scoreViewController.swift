@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class scoreViewController: UIViewController {
+class scoreViewController: UIViewController, UITextFieldDelegate {
     
     var yosicount: Int = 0
     var tunecount: Int = 0
@@ -17,6 +17,7 @@ class scoreViewController: UIViewController {
     var point: Int!
     
     var  namae:DatabaseReference!
+    var saveDate: UserDefaults = UserDefaults.standard
     
     @IBOutlet var pointLabel: UILabel!
     @IBOutlet var pointLabelsecond: UILabel!
@@ -26,12 +27,24 @@ class scoreViewController: UIViewController {
     @IBOutlet var yosicountLabel: UILabel!
     @IBOutlet var tunecountLabel: UILabel!
     @IBOutlet var asicountLabel: UILabel!
+    @IBAction func namae(_ sender: Any) {
+    }
     
-    @IBOutlet weak var namae: UITextField!
+    @IBOutlet weak var outputText: UILabel!
+    @IBOutlet weak var inputText: UITextField!
     
+    @IBAction func button(_ sender: Any) {
+        outputText.text = inputText.text
+        inputText.endEditing(true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.inputText.delegate = self
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
         yosicountLabel.text = String(yosicount)
         asicountLabel.text = String(asicount)
         tunecountLabel.text = String(tunecount)
@@ -42,7 +55,17 @@ class scoreViewController: UIViewController {
         func add(_ sender: AnyObject) {
             let data = ["name": UITextField.text]
         namae.child("user/01").setValue(data)
+        saveDate .set(point, forKey: "point")
     }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        outputText.text = inputText.text
+        self.view.endEditing(true)
     }
     
     func setNumbers() {

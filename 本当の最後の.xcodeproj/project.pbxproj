@@ -22,7 +22,10 @@
 		D05C830221C4F17000BF7647 /* Pods_本当の最後の.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C830121C4F17000BF7647 /* Pods_本当の最後の.framework */; };
 		D05C830321C4F27000BF7647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D06A254421C4EA6300861356 /* GoogleService-Info.plist */; };
 		D06A254121C4E50800861356 /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = D06A254021C4E50800861356 /* onpu.png */; };
-		D0CDACE821A005BC005F4AE4 /* hatesinai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0CDACE721A005BC005F4AE4 /* hatesinai.mp3 */; };
+		D07C08D921FC6FA800B51DBF /* highscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C08D821FC6FA700B51DBF /* highscoreViewController.swift */; };
+		D0B8E3AB21FC365D00AE0BFA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B8E3AA21FC365D00AE0BFA /* Login.storyboard */; };
+		D0C02A9C21E9D324003F957D /* hatesinai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0C02A9B21E9D324003F957D /* hatesinai.mp3 */; };
+		D0C02A9E21E9DC53003F957D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C02A9D21E9DC53003F957D /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +72,10 @@
 		D05C830121C4F17000BF7647 /* Pods_本当の最後の.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_本当の最後の.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06A254021C4E50800861356 /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onpu.png; path = "../../制作画像/onpu.png"; sourceTree = "<group>"; };
 		D06A254421C4EA6300861356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D0CDACE721A005BC005F4AE4 /* hatesinai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hatesinai.mp3; path = ../../../Downloads/hatesinai.mp3; sourceTree = "<group>"; };
+		D07C08D821FC6FA700B51DBF /* highscoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highscoreViewController.swift; sourceTree = "<group>"; };
+		D0B8E3AA21FC365D00AE0BFA /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D0C02A9B21E9D324003F957D /* hatesinai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hatesinai.mp3; path = ../../../Downloads/hatesinai.mp3; sourceTree = "<group>"; };
+		D0C02A9D21E9DC53003F957D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,15 +138,18 @@
 		58406DBD20A6D63C00CE808E /* 本当の最後の */ = {
 			isa = PBXGroup;
 			children = (
-				D0CDACE721A005BC005F4AE4 /* hatesinai.mp3 */,
+				D0C02A9B21E9D324003F957D /* hatesinai.mp3 */,
 				D044FFFD214D1FAB004DF623 /* スコア.png */,
 				D06A254021C4E50800861356 /* onpu.png */,
 				5841D04220CBAE8F00E2D906 /* アンダーバー.png */,
 				58406DBE20A6D63C00CE808E /* AppDelegate.swift */,
+				D07C08D821FC6FA700B51DBF /* highscoreViewController.swift */,
+				D0C02A9D21E9DC53003F957D /* Profile.swift */,
 				58406DC020A6D63C00CE808E /* ViewController.swift */,
 				5882C22C20F09721004D71DB /* scoreViewController.swift */,
 				5863738620B938D00042AAA9 /* PlayViewController.swift */,
 				58406DC220A6D63C00CE808E /* Main.storyboard */,
+				D0B8E3AA21FC365D00AE0BFA /* Login.storyboard */,
 				58406DEC20A6DE9D00CE808E /* TableViewCell.swift */,
 				58406DC520A6D63C00CE808E /* Assets.xcassets */,
 				58406DC720A6D63C00CE808E /* LaunchScreen.storyboard */,
@@ -290,12 +299,13 @@
 			files = (
 				5841D04320CBAE8F00E2D906 /* アンダーバー.png in Resources */,
 				D05C830321C4F27000BF7647 /* GoogleService-Info.plist in Resources */,
+				D0C02A9C21E9D324003F957D /* hatesinai.mp3 in Resources */,
 				D044FFFE214D1FAB004DF623 /* スコア.png in Resources */,
 				58406DC920A6D63C00CE808E /* LaunchScreen.storyboard in Resources */,
-				D0CDACE821A005BC005F4AE4 /* hatesinai.mp3 in Resources */,
 				58406DC620A6D63C00CE808E /* Assets.xcassets in Resources */,
 				D06A254121C4E50800861356 /* onpu.png in Resources */,
 				58406DC420A6D63C00CE808E /* Main.storyboard in Resources */,
+				D0B8E3AB21FC365D00AE0BFA /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +382,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5863738720B938D00042AAA9 /* PlayViewController.swift in Sources */,
+				D0C02A9E21E9DC53003F957D /* Profile.swift in Sources */,
+				D07C08D921FC6FA800B51DBF /* highscoreViewController.swift in Sources */,
 				58406DED20A6DE9D00CE808E /* TableViewCell.swift in Sources */,
 				58406DC120A6D63C00CE808E /* ViewController.swift in Sources */,
 				5882C22D20F09721004D71DB /* scoreViewController.swift in Sources */,

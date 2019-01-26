@@ -17,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
        FirebaseApp.configure()
+        
+        let saveDate: UserDefaults = UserDefaults.standard
+        let userName = saveDate.object(forKey: "Name")
+        let userPoint = saveDate.object(forKey:"point")
+        print (userName)
+        
+        if userName != nil {
+            let Storybord = UIStoryboard(name: "Main", bundle: nil)
+            let rootViewController: UIViewController? = Storybord.instantiateInitialViewController()
+            window?.rootViewController = rootViewController
+        }
         // Override point for customization after application launch.
         return true
     }

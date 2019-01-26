@@ -12,6 +12,7 @@ import Firebase
 
 class PlayViewController: UIViewController, AVAudioPlayerDelegate {
     
+    var profile = Profile.shared
     var audioPlayer:AVAudioPlayer!
     
     var point: Int = 0
@@ -50,6 +51,7 @@ class PlayViewController: UIViewController, AVAudioPlayerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(profile.name)
         namae = Database.database().reference()
         
         timer = Timer.scheduledTimer(timeInterval: 0.01,target: self,
